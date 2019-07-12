@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/timeID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/estimatedCostID"
+            android:paddingTop="30dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeID"
+            android:layout_centerHorizontal="true"
+            android:text="Estimated Cost: " />
+
+
+
+        <Button
+            android:id="@+id/exitScanButton"
+            android:layout_width="384dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/estimatedCostID"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="-19dp"
+            android:layout_marginTop="163dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="-4dp"
+            android:background="@color/colorAccent"
+            android:text="Press to scan QR Code to exit"
+            android:textColor="@color/colorTextSave" />
+    </RelativeLayout>
+
+</LinearLayout>

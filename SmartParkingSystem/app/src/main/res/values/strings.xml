@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Parking System</string>
+    <string name="login">Welcome to Smart Parking System!</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+
+</resources>

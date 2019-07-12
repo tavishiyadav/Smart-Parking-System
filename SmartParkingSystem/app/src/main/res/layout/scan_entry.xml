@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/statusID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/parkingSpotID"
+            android:layout_below="@+id/statusID"
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parking Spot: "
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/pressButton"
+            android:layout_width="384dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/parkingSpotID"
+            android:layout_alignStart="@+id/parkingSpotID"
+            android:layout_alignEnd="@+id/parkingSpotID"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="-19dp"
+            android:layout_marginTop="163dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="-4dp"
+            android:background="@color/colorAccent"
+            android:text="Press to scan QR Code to enter"
+            android:textColor="@color/colorTextSave" />
+    </RelativeLayout>
+
+</LinearLayout>
